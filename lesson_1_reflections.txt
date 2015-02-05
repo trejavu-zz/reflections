@@ -1,0 +1,48 @@
+1. How did using the diff help you to spot a bug?
+Viewing the diff between two versions of a file helped because it pointed out the differences.
+While not all differences were the result of errors, the fact that so few lines had been
+changed compared with the original file was a major coup in discovering those
+lines that did require correction.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It is sometimes helpful to experiment a bit with your code when you program.
+With this experimentation, there is always a risk that the solution you find to a problem creates an even bigger problem or isn't a solution at all.
+In that case, you need to be able to revert to a past point in the project before you've made any changes.
+It's also a helpful tool to fork a project.
+There might be a time at which the directions that a given project could take vary.
+Using versions could help to create an archive of that evolution.
+Versioning can also help you look back at your development as a programmer.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros of manually choosing to create a commit: 
+
+-logical placement
+-ability to label commits
+-helps to develop good habits with versioning and thinking about project
+Cons of manually choosing to commit:
+-high risk of user error
+-takes time away for working on project
+
+Pros of automatic
+-less risk of not saving
+-removes the need to actively think about saving
+
+Cons
+-less likely to save at logical points
+-might create more clutter than necessary
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git and Google Docs are designed for different communities. Google Docs are typically stand along text documents. So, it often only makes sense to track changes to each file separately.
+Git, however, is designed for coders.
+This requires the ability to track changes to multiple documents at once.
+
+How might using version control make you more confident to make changes that could break something?
+It's horrible to make a ton of changes and then realize that it broke something else. Because of that, it might make programmers more risk averse because the program works ok even though
+it doesn't have that awesome new thing.
+Because you can use version control, you might be more daring in adding cool features that aren't critical but
+that can make the end result seem pretty slick.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I have no clue. Probably some silly app that I'll be working on. I'm mostly learning how to use git now so that I don't have to use it later.

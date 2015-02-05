@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need it?
+
+a .git folder is created to begin logging metadata to reflect the changes to the files
+contained in that repository.
