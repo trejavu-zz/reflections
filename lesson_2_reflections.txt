@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need it?
 
 a .git folder is created to begin logging metadata to reflect the changes to the files
 contained in that repository.
+Here is a new line. Should suffice for my changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a temporary space to collect the files that you will store in a commit. The working directory and the repository are the source and the destination, respectively for 
+the temporary space.
+
+This is another line in my file.
