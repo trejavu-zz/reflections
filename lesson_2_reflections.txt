@@ -9,4 +9,36 @@ How is the staging area different from the working directory and the repository?
 The staging area is a temporary space to collect the files that you will store in a commit. The working directory and the repository are the source and the destination, respectively for 
 the temporary space.
 
-This is another line in my file.
+How can you use the staging area to make sure you have one commit per logical change?
+You can do a git diff each time to look at the summary of what you've done.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When enough of the functionality in your program has changed, you can
+branch off your program to create an obvious split. 
+You can use these branches to test the various uses among different types of users. 
+You can use the branches to develop different apps. 
+You can use the branches to keep track of different versions of the same app.
+
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help you visualize how the branches and commits relate to one another.
+They also help you realize when you are about to lose work in the case that you do not have a commit on a given branch.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is to incorporate all of the changes from the point of divergence to the tips of each branch.
+This has the effect of rendering one branch useless since it's incorporated into the other branch.
+It's represented in the way that it is in the diagram because it takes both tips and joins them into one path again with two parent branches.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros
+-taking the easy calls and making them easier
+-quicker mergin
+
+Cons
+-relying on automatic merges may do something weird to the resulting file
+-you won't actively be aware with what's involved in negotiating differences in files
