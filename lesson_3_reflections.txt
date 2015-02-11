@@ -18,3 +18,7 @@ Use forks in GitHub when making a copy of someone else's repository to explore u
 Use clones typically to pull projects to your local filesystem to work on them locally.
 Use branches when you are making experimental changes that you don't necessarily want to include in the master branch quite yet.
 
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can use this image to compare with the current remote to see what changes other had made to the repository.
