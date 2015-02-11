@@ -22,3 +22,15 @@ Use branches when you are making experimental changes that you don't necessarily
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can use this image to compare with the current remote to see what changes other had made to the repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would collaborate using email and naming the versions different things.
+The only thing that would be easier is that I wouldn't have to learn git and neither would my collaborative partners.
+It would generally be a pain in the ass not to use it though.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You would want to make changes in a separate branch whenever you need someone else to review it before you add it.
+If you're working by yourself, then you would want to work in a separate branch whenever you are trying something that you might want to include in your master branch later but aren't quite sure yet.
+
+Working in the master branch alone makes interacting with your changes easier since they are all there. The problem with that is that it makes it difficult to track the major courses that the project has taken.
+It's also more difficult to collaborate with others if you just work in the master branch because the changes that each person brings to the program won't be compartmentalized as well.
